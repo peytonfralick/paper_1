@@ -1,0 +1,26 @@
+---
+title: "paper1_figure4"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+```
+
+
+```{r}
+read.csv("~/Desktop/paper_1/clutch_size.csv")
+```
+
+```{r}
+ggplot(data=clutch_size)+
+  aes(x=RW,y=ClutchSize)+
+  geom_point()+
+  geom_smooth()+
+   labs(y= "Clutch Size", x = "Total Rainfall in Time Window (mm)")+
+  theme_bw()
+
+
+```
+
