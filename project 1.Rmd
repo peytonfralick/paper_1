@@ -10,7 +10,7 @@ library(tidyverse)
 
 
 ```{r}
-read.csv("~/Desktop/paper_1/clutch_size.csv")
+clutch_size<- read.csv("clutch_size.csv")
 ```
 
 ```{r}
