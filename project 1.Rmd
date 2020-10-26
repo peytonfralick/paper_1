@@ -1,6 +1,7 @@
 ---
 title: "paper1_figure4"
 output: html_document
+bibliography: refsA.bib[Hidalgo et.al.]
 ---
 
 ```{r setup, include=FALSE}
