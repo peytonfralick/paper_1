@@ -1,8 +1,10 @@
 ---
 title: "paper1_figure4"
 output: html_document
-bibliography: refsA.bib[Hidalgo et.al.]
+bibliography: Hidalgo.bib
 ---
+
+This reproduces figures from [@RN18]
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -25,3 +27,5 @@ ggplot(data=clutch_size)+
 
 ```
 
+
+References
