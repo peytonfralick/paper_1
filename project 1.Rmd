@@ -16,7 +16,7 @@ library(tidyverse)
 clutch_size<- read.csv("clutch_size.csv")
 ```
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 ggplot(data=clutch_size)+
   aes(x=RW,y=ClutchSize)+
   geom_point()+
