@@ -28,9 +28,4 @@ ggplot(data=clutch_size)+
 #Hidalgo Aranzamendi N, Hall ML, Kingma SA, van de Pol M, Peters A. Rapid plastic breeding response to rain matches peak prey abundance in a tropical savanna bird. J Anim Ecol. 2019;88:1799–1811. https://doi. org/10.1111/1365-2656.13068
 
 ```
-Hidalgo Aranzamendi N, Hall ML, Kingma SA, van de Pol M, Peters A. Rapid plastic breeding response to rain matches peak prey abundance in a tropical savanna bird. J Anim Ecol. 2019;88:1799–1811. https://doi. org/10.1111/1365-2656.13068
 
-I recreated figure 4a which is a scatterplot using geom_smooth function to get the rolling mean. The data for this figure was available as an excel spreadsheet but no code was provided. I had to alter the name of one of the columns of the spreadsheet to be able to use it without error in R-studio. I exported the excel spreadsheet into a csv file and read it into R-studio. Despite the fact that the authors did not provide code I was able to successfully recreate the figure. All in all, the process was stragitforward.
-
-
-References
